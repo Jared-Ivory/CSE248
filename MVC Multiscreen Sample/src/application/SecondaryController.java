@@ -8,27 +8,25 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
+import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 
-public class MainController {
+public class SecondaryController {
 	private StringBag theBag;
 	
 	@FXML
-	private TextField inputField;
+	private TextArea txtArea;
 	
-	@FXML
-	private Button btnGetData;
-	
-	public void getData(ActionEvent e) {
+	public void showData(ActionEvent e) {
 		theBag = Main.getBag();
-		theBag.insert(inputField.getText());
-		inputField.clear();
+		int nElems = theBag.getNElems();
+		for(int i = 0; i < nElems; i++) {
+			txtArea.appendText(theBag.pop() + "\n");
+		}
 	}
 	
 	public void changeView(ActionEvent e) throws IOException{
-		Parent root = FXMLLoader.load(getClass().getResource("secondaryFXML.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("mainFXML.fxml"));
 		Scene scene = new Scene(root);
 		Stage window = (Stage) ((Node)e.getSource()).getScene().getWindow();
 		window.setScene(scene);
