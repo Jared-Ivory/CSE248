@@ -3,6 +3,7 @@ package application;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
+import models.StringBag;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
@@ -15,9 +16,9 @@ public class Main extends Application {
 		try {
 			theBag = new StringBag(50);
 			
-			Parent root = FXMLLoader.load(getClass().getResource("mainFXML.fxml"));;
+			Parent root = FXMLLoader.load(getClass().getResource("/view/mainFXML.fxml"));;
 			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			scene.getStylesheets().add(getClass().getResource("/view/application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {

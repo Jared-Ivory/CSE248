@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane minHeight="300.0" minWidth="400.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane minHeight="300.0" minWidth="400.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
    <children>
       <Button layoutX="263.0" layoutY="207.0" mnemonicParsing="false" onAction="#changeView" text="Change View" />
       <Button fx:id="btnGetData" layoutX="51.0" layoutY="207.0" mnemonicParsing="false" onAction="#getData" text="Get Data" />

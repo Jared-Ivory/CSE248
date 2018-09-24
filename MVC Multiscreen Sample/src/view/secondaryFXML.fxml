@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="300.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SecondaryController">
+<AnchorPane prefHeight="600.0" prefWidth="300.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SecondaryController">
    <children>
       <TextArea fx:id="txtArea" layoutX="32.0" layoutY="66.0" prefHeight="205.0" prefWidth="236.0" />
       <Button layoutX="32.0" layoutY="396.0" mnemonicParsing="false" onAction="#showData" text="Show Data" />
