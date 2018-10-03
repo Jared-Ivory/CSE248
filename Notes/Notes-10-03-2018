@@ -1,0 +1,11 @@
+Notes: 10/03/2018
+	What is an API?
+		-An API, Application Program Interface, is a tool for developers to manipulate data from
+			some server. Examples: Twitter API, Facebook API,Google API, etc. 
+	Twitter API
+		-REST API
+	Enterprise Server-Side languages
+		-Java, Node.js, Visual
+			*Javascript is advantageous as it can be used to easily have full stack development
+	SpringBoot
+		- USE:spring boot initializer
