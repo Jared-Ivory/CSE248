@@ -5,13 +5,13 @@
   
   ##
   
-  #### 10/15: Exam 1 Review
+  ##### 10/15: Exam 1 Review
   ##### What is the purpose of a server?
   To allow a user to store data and to help clients connect with one another. 
   
   ##### How do client servers interact with one another?
   	
-  Through an API (Application Program Interface)
+  Through an __*API (Application Program Interface)*__
   
   ##### What is the process in developing a typical web application?
    
@@ -28,3 +28,19 @@
  Controller - Holds the business logic of an application
  
  Model - Java code for all the data needed within the product.
+
+##### Spring
+
+[Spring Boot vs SpringMVC](https://www.javadevjournal.com/spring-boot/spring-boot-vs-spring-mvc/)
+ 
+[Spring Boot Tutorial](https://auth0.com/blog/developing-a-restful-client-with-retrofit-and-spring-boot/?utm_source=reddit&utm_medium=sc&utm_campaign=retrofit_spring)
+ 
+ ##### UML (Unified Modeling Diagram) design - [link](https://www.uml-diagrams.org/)
+ 
+ > A __*UML diagram*__ is a diagram based on the __*UML (Unified Modeling Language)*__ with the purpose of visually representing a system along with its main __*actors, roles, actions, artifacts or classes*__, in order to better __*understand, alter, maintain, or document*__ information about the system.
+ 
+ ![Image of UML Diagram](https://d3n817fwly711g.cloudfront.net/uploads/2012/02/UML-Diagram-types-1-1024x658.png)
+ 
+ 
+
+##
