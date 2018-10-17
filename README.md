@@ -42,5 +42,16 @@
  ![Image of UML Diagram](https://d3n817fwly711g.cloudfront.net/uploads/2012/02/UML-Diagram-types-1-1024x658.png)
  
  
-
 ##
+
+##### 10/17: UML Extended:
+
+Final Project UML
+- Use Case Diagram
+- Class Diagram
+
+___Association___ is the weakest relationship
+
+___Aggregation___ is closer than association and it means belongs. (Clear Diamond)
+
+___Composition___ closet relationship. Tightly related.(Filled Diamond)
