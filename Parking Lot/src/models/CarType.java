@@ -1,5 +1,5 @@
 package models;
 
 public enum CarType {
-	SEDAN, SUV, TRUCK, HYBRID, ELECTRIC
+	UNASSIGNED, SEDAN, SUV, TRUCK, HYBRID, ELECTRIC
 }

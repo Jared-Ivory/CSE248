@@ -4,25 +4,32 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 public class Vehicle {
-	private Timestamp TIMEIN;
+	private Timestamp TimeIn;
 	private String licenseplate;
 	private CarType cartype;
 	
 	public Vehicle(String licenseplate, CarType cartype) {
-		Date today = new Date();
 		this.licenseplate = licenseplate;
 		this.cartype = cartype;
-		this.TIMEIN = new Timestamp(today.getTime());
+	}
+	
+	public Vehicle(String licenseplate) {
+		this.cartype = CarType.UNASSIGNED;
+		this.licenseplate = licenseplate;
 	}
 	
 	
 	public String getTimeIn() {
-		return TIMEIN.toString();
+		return TimeIn.toString();
+	}
+	
+	public void setTimein () {
+		this.TimeIn = new Timestamp(new Date().getTime());
 	}
 
 
 	public Timestamp getTIMEIN() {
-		return TIMEIN;
+		return TimeIn;
 	}
 
 
