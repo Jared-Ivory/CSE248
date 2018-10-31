@@ -1,0 +1,21 @@
+Car Class
+	-Time timeIN
+	-Time timeOUT
+	-state
+	-Enum Model
+	-String license
+
+Garage Class:
+	-Amount of spots
+	-Arrangement of spots
+
+Person:
+	-Badge NUMBER, name
+	
+	Attendent:
+		
+	
+Gate: Hub so to speak
+	-Issues Tickets
+	-Contains a garage and attendent
+	
