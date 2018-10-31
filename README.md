@@ -1,9 +1,27 @@
 # CSE248 Class Notes
 
-  #### 9/26: Agile vs Waterfall - [link](http://www.agilenutshell.com/) 
-  Introduction to workflows withinin proffessional environments. Helps to create a clear and concise direction of a projects direction.
-  
-  ##
+
+##### 10/31: Databases
+- MySql Server Community Edition
+- MySql WorkBench
+- MySql Connector/J (Driver)
+
+## 
+
+##### 10/17: UML Extended:
+
+Final Project UML
+- Use Case Diagram
+- Class Diagram
+
+___Association___ is the weakest relationship
+
+___Aggregation___ is closer than association and it means belongs. (Clear Diamond)
+
+___Composition___ closet relationship. Tightly related.(Filled Diamond)
+
+##
+
   
   ##### 10/15: Exam 1 Review
   ##### What is the purpose of a server?
@@ -28,6 +46,8 @@
  Controller - Holds the business logic of an application
  
  Model - Java code for all the data needed within the product.
+ 
+##
 
 ##### Spring
 
@@ -35,7 +55,9 @@
  
 [Spring Boot Tutorial](https://auth0.com/blog/developing-a-restful-client-with-retrofit-and-spring-boot/?utm_source=reddit&utm_medium=sc&utm_campaign=retrofit_spring)
  
- ##### UML (Unified Modeling Diagram) design - [link](https://www.uml-diagrams.org/)
+## 
+ 
+##### UML (Unified Modeling Diagram) design - [link](https://www.uml-diagrams.org/)
  
  > A __*UML diagram*__ is a diagram based on the __*UML (Unified Modeling Language)*__ with the purpose of visually representing a system along with its main __*actors, roles, actions, artifacts or classes*__, in order to better __*understand, alter, maintain, or document*__ information about the system.
  
@@ -44,14 +66,7 @@
  
 ##
 
-##### 10/17: UML Extended:
-
-Final Project UML
-- Use Case Diagram
-- Class Diagram
-
-___Association___ is the weakest relationship
-
-___Aggregation___ is closer than association and it means belongs. (Clear Diamond)
-
-___Composition___ closet relationship. Tightly related.(Filled Diamond)
+  #### 9/26: Agile vs Waterfall - [link](http://www.agilenutshell.com/) 
+  Introduction to workflows withinin proffessional environments. Helps to create a clear and concise direction of a projects direction.
+  
+ ##
