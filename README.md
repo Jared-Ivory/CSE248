@@ -1,5 +1,49 @@
 # CSE248 Class Notes
 
+##### 11/5: Front End/Back End
+
+**Front End:**
+
+Web App-
+* HTML, JS
+Mobile App-
+* XML, Java, Swift, Objective C
+
+**Back End:**
+
+* Java EE
+* Node.js
+* etc...
+
+_Essential Components:_
+
+1. Application Server
+2. Web Server
+3. Database Server 
+
+___HOW THEY INTERACT:___
+
+* REST - REpresentational State Transfer.
+* "It would be nice if computers could understand each other" - creator of REST.
+* Client must be able to interpret SQL and interact with a database.
+
+__Goals:__
+
+* Make data human readable. (Ex. Text files)
+* Tagged data.
+* Doesn't matter what language you use as long as you interpret data.
+* Applies a server called an API.
+* Client asks for data in XML or JSON.
+* Client side then parses the data and updates UI.
+
+__Notes:__
+
+* Spring boot comes with built in functions to accomplish restful operations.
+* OpenWeatherMap
+* SoapUI
+* Postman API
+
+##
 
 ##### 10/31: Databases
 - MySql Server Community Edition
@@ -70,3 +114,4 @@ ___Composition___ closet relationship. Tightly related.(Filled Diamond)
   Introduction to workflows withinin proffessional environments. Helps to create a clear and concise direction of a projects direction.
   
  ##
+
