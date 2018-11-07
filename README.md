@@ -1,6 +1,18 @@
 # CSE248 Class Notes
 
-##### 11/5: Front End/Back End
+##### 11/07: Databases
+
+Foreign Keys are used to link tables together. Much like a linked list. Can be null.
+
+Primary Keys identify the data. *Must be Unique nor Null*
+
+Only specific types of data are allowed into the database
+
+![Image](https://i.imgur.com/HVSDyTr.png)
+
+##
+
+##### 11/05: Front End/Back End
 
 **Front End:**
 
