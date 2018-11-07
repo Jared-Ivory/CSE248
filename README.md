@@ -10,6 +10,15 @@ Only specific types of data are allowed into the database
 
 ![Image](https://i.imgur.com/HVSDyTr.png)
 
+Foreign Keys link tables together.
+
+Sakila customer
+	
+    |- address_id --> Address contains city_id
+		| - city_id --> City contains country_id
+			| - country_id --> Country
+		
+
 ##
 
 ##### 11/05: Front End/Back End
