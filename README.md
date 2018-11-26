@@ -1,5 +1,12 @@
 # CSE248 Class Notes
 
+##### 11/26: School Data Project
+
+
+	Use NCES or College Score Card for data.
+    Use API to retrieve data and then store within a SQL Database.
+
+
 ##### 11/07: Databases
 
 Foreign Keys are used to link tables together. Much like a linked list. Can be null.
