@@ -1,6 +1,7 @@
 package predicate;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Demo {
 	/**
@@ -20,9 +21,13 @@ public class Demo {
 		sb.insert(new Student("Jim", 3.0));
 		sb.insert(new Student("Sally", 2.0));
 		
-		Student[] arr = sb.search(p -> (p.getGpa() >= 2.5));
-		System.out.println(Arrays.toString(arr));
-		
+		Scanner scan = new Scanner(System.in);
+		while(true) {
+			String search = scan.next();
+			Student[] arr = sb.search(p -> (p.getName().contains(search)));
+			System.out.println(Arrays.toString(arr));
+			
+		}
 		
 		
 	}
