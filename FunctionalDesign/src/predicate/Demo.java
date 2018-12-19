@@ -2,6 +2,7 @@ package predicate;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class Demo {
 	/**
@@ -22,13 +23,16 @@ public class Demo {
 		sb.insert(new Student("Sally", 2.0));
 		
 		Scanner scan = new Scanner(System.in);
-		while(true) {
-			String search = scan.next();
-			Student[] arr = sb.search(p -> (p.getName().contains(search)));
-			System.out.println(Arrays.toString(arr));
-			
-		}
+//		while(true) {
+//			String search = scan.next();
+//			Student[] arr = sb.search(p -> (p.getName().contains(search)));
+//			System.out.println(Arrays.toString(arr));
+//		}
 		
+		Predicate<Student> gpa = p -> p.getGpa()>=3.0;
+		Predicate<Student> name = p -> p.getName().contains("l");
+		Student[] arr2 = sb.search(gpa.or(name));
+		System.out.println(Arrays.toString(arr2));
 		
 	}
 	

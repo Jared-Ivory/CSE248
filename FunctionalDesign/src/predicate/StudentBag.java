@@ -30,7 +30,6 @@ public class StudentBag {
 		Student[] arr = new Student[this.maxSize];
 		//Holds the amount of elements that pass the "test condition"
 		int n = 0;
-		
 		//Iterates through original array
 		for(int i = 0; i < nElems; i++) {
 			//Checks to see if object matches the "test condition"
