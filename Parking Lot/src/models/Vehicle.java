@@ -11,6 +11,7 @@ public class Vehicle {
 	public Vehicle(String licenseplate, CarType cartype) {
 		this.licenseplate = licenseplate;
 		this.cartype = cartype;
+		setTimein();
 	}
 	
 	public Vehicle(String licenseplate) {
