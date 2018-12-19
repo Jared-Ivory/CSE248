@@ -3,7 +3,9 @@ package p1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import comparable.BankAccount;
 import comparator.BankAccountSort;
@@ -23,10 +25,10 @@ public class Main {
 		list.add(ba3);
 		list.add(ba4);
 
-
-
 		Collections.sort(list,BankAccountSort.sortByBalanceIncreasing());
 		System.out.println(list);
+		List<BankAccount> sortedByBalanceIncreasing = list.stream().sorted(BankAccountSort.sortByBalanceIncreasing()).collect(Collectors.toList());
+		System.out.println(sortedByBalanceIncreasing);
 		Collections.sort(list,BankAccountSort.sortByBalanceDecreasing());
 		System.out.println(list);
 		Collections.sort(list,BankAccountSort.sortByAccoutNumberIncreasing());
